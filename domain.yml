@@ -1,0 +1,447 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - parking
+  - exam
+  - about_us
+  - affiliate
+  - facilities
+  - fees
+  - hostel
+  - mission
+  - placement
+  - address
+  - scholarship
+  - total_branches
+  - vision
+  - admission
+  - entrance
+  - dept_statistics
+  - dept_zoology
+  - dept_computer_science
+  - dept_physics
+  - dept_microbiology
+  - dept_mathematics
+  - dept_electronic_science
+  - dept_chemistry
+  - dept_botany
+  - dept_biotechnology
+  - dept_english
+  - dept_german
+  - dept_psychology
+  - dept_hindi
+  - dept_history
+  - dept_fashion_technology
+  - dept_marathi
+  - dept_geography
+  - dept_political_science
+  - dept_commerce_self
+  - dept_commerce_grant 
+  - dept_economics
+  - HOD
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you? I am chatbot designed for Modern College. I can assist you for the following mentioned queries-\n
+     - parking\n  - exam\n  - about_us\n  - affiliate\n  - facilities\n  - fees\n  - hostel\n  - mission\n  - placement\n  - address\n  - scholarship\n  - total_branches\n  - vision\n  - admission\n  - entrance\n  - dept_statistics\n "
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am chatbot designed for Modern College. I can assist you for the following mentioned queries-\n
+     - parking\n  - exam\n  - about_us\n  - affiliate\n  - facilities\n  - fees\n  - hostel\n  - mission\n  - placement\n  - address\n  - scholarship\n  - total_branches\n  - vision\n  - admission\n  - entrance\n  - dept_statistics\n "
+  - text: "I am chatbot designed for Modern College. I can assist you for the following mentioned queries-\n
+     - parking\n  - exam\n  - about_us\n  - affiliate\n  - facilities\n  - fees\n  - hostel\n  - mission\n  - placement\n  - address\n  - scholarship\n  - total_branches\n  - vision\n  - admission\n  - entrance\n  - dept_statistics\n "
+  
+  utter_parking:
+  - text: "We do have parking for all students"
+  - text: "We do have parking for students and faculties"
+  - text: "We do have parking for all faculties and students."
+
+  utter_exam:
+  - text: Link for examination section is http://moderncollegepune.edu.in/students-corner/examinations/ 
+  - text: Link for examination section is http://moderncollegepune.edu.in/students-corner/examinations/ 
+  - text: Link for examination section is http://moderncollegepune.edu.in/students-corner/examinations/ 
+
+  utter_about_us:
+  - text: "Modern College of Arts, Science & Commerce Institute of Technology (MCASC) has started functioning with commitment of imparting state of art technical education so as to inculcate conceptual know-how, analyzing skills, decision making abilities and leadership qualities in the students.MCASC stands committed to the intellectual and moral growth of every student.MCASC has experienced and proficient team which aspires to unlock the hidden potential in subconscious minds of students and to create competent Engineers with vision & social commitment."
+  - text: "Modern College of Arts, Science & Commerce Institute of Technology (MCASC) has started functioning with commitment of imparting state of art technical education so as to inculcate conceptual know-how, analyzing skills, decision making abilities and leadership qualities in the students.MCASC stands committed to the intellectual and moral growth of every student.MCASC has experienced and proficient team which aspires to unlock the hidden potential in subconscious minds of students and to create competent Engineers with vision & social commitment."      
+
+  utter_affiliate:
+  - text: "Yes, Modern College of Arts, Science & Commerce Institute of Technology is Savitribai Phule Pune University (SPPU) Affiliated."
+  - text: "Modern College of Arts Science & Commerce, Shivaji Nagar is SPPU affiliated."
+  - text: "Yes, Our college is SPPU affiliated"
+  - text: "College is affiliated by SPPU"
+  - text: "Yes, College is SPPU affiliated"
+  - text: "Affiliated by Savitribai Phule Pune University"
+  
+  utter_dept_statistics:
+  - text: "Statistics Department established in 1970’s as Mathematics and Statistics department. Department
+established as a separate statistics department in 1979. It is the first college in Pune University with
+statistics special at M.Com. Level started in 1979. In department B.Sc. with statistics special started
+in 1979. The statistical Department is one of the departments in college which has teaching
+programme of statistics at principal level for B.Sc. and at special level for B.com and M.com. for
+more than 35 years.\n
+Salient features of the Department-\n
+ Department of Statistics is well equipped with computers, laptops and LCD projectors with
+internet facility.\n
+ We are conducting Statistical Fest every year to inculpate soft skills of the students\n
+ We are conducting various students’ activities such as quiz, poster competition, problem
+corner.\n
+ SAS software Training programme is conducted for M.Sc. Students.\n
+ Internship Training programme with National Sample Survey organization, Pune (NSSO) and
+National Academy of Statistical Administration (NASA).\n
+ CYTEL Software sponsored scholarship for needy students."
+
+  
+  utter_dept_zoology:
+  - text: "Department of Zoology was established along with college in 1970 as a part of Biology Department.
+The T.Y. B.Sc. classes were started from 1979 and M.Sc. Zoology (Entomology Specialization)
+commenced from 1994.\n
+Salient Features of the Department- \n
+ Highly qualified and experienced teaching staff.\n
+ Efficient and cordial non- teaching staff.\n
+ Excellent results every year (between 90% to 100%)\n
+ Few ex-students with outstanding career."
+
+  utter_dept_computer_science:
+  - text: "The need of the hour is excellence in every field of operation and particularly “Information
+Technology”. Realizing this need, the Computer Science Department, Modern College, Pune-05 is
+engaged in molding tomorrow’s information and communication technologists today.
+Our students are in the field of Computer Science and Applications. Their entry for the course is on
+the basis of merit. At the undergraduate level their performance at HSC (Science) with mathematics
+as compulsory subject is the criteria for the admission.\n
+Salient Features of the Department-\n
+ Established in 1986 Pioneer in the field of Computer Science.\n
+ Well-equipped Lab with ultra-modern facilities.\n
+ Young, experienced, qualified and highly motivated staff.\n
+ Wi-Fi enabled department.\n
+ Strong and active alumni support.\n
+ ICT enabled teaching learning in fracture with digitally equipped classrooms.\n
+ More than 95% placement with active placement cell."
+
+  utter_dept_physics:
+  - text: "The department of Physics is one of the largest and oldest departments in Modern College. The
+department of Physics was instituted from the inception of the college in June 1970. Physics as
+principal subject was started from June 1973. It offers courses at the Undergraduate and Post-
+graduate levels. The Undergraduate centre offers Material Science, Instrumentation, Advanced
+Electronics, Nanotechnology, Astrophysics as elective courses at UG level.\n
+Salient Features of the Department-\n
+ The department has 4 well equipped and dedicated laboratories. Physics department has
+also applied to SPPU for recognized research centre.\n
+ Faculty members are actively involved in syllabus forming and restructuring at University
+level for both Undergraduate &amp; Post-Graduate levels.\n
+ Research projects are funded by BCUD-SPPU.\n
+ Research carried out by faculty members are published in National and International
+journals, seminars and conferences.
+"
+
+  utter_dept_microbiology:
+  - text: "Immunology, Biochemistry, Genetics, Molecular Biology, Virology, Air -, Water -, Soil -, Agriculture -,
+Food -, Dairy, Space Microbiology, Biotechnology, Fermentation Technology etc. has never ending
+impact on human life and making earth a better place to live.\n
+Salient Features of the Department-\n
+ Well qualified, skilled and dedicated faculty\n
+ Advanced teaching and learning resources and methods\n
+ Career guidance and placement cell for students.\n
+ Collaborations with various Departments of Savitribai Phule Pune University and other
+reputed institutes such as NIV, NCL, NCCS, NARI, etc. for research projects."
+
+
+  utter_dept_mathematics:
+  - text: "The Progressive Education Society’s Modern College of Arts, Science and Commerce, Shivajinagar,
+Pune-5 was started by the initiative of honourable Tatake Sir in June 1970. Prof. Limaye was first
+Principal of the college. For the first ten years, there was a combined Department of Mathematics
+and Statistics, headed by Prof. P.S. Chirputkar.
+"
+
+  utter_dept_electronic_science:
+  - text: "The department of Electronic Science was formally established as separate department from June
+1994. Earlier it was a part of Physics department. Modern college was the first among few colleges in
+Pune University to start Electronic Science as a separate discipline in 1985, when University
+introduced this subject.\n
+Salient Features- \n
+ Well Equipped Laboratories\n
+ Qualified Staff\n
+ Personal attention and counselling for students\n
+ Opportunity for the students to conduct projects in National level institutes\n
+ Interactive Alumni\n
+ Digital Class room"
+
+
+  utter_dept_chemistry:
+  - text: "The Department of Chemistry of this college has been established in 1970. The department is in
+function of running 11th, 12th, under graduate (B.Sc.) and Post Graduate (M.Sc. Analytical
+Chemistry) courses. Most of the faculties from senior wing are Ph. D. and remaining teachers are
+also pursuing it from various prestigious research centres. The department is fully equipped with
+instruments, equipment and departmental books library to study the Chemistry in more effective
+manner at Jr, UG and PG levels.\n
+Salient Features-\n 
+-Laboratories\n
+-Departmental Library\n
+-Internet Facility\n
+-Research Laboratory "
+ 
+
+  utter_dept_botany:
+  - text: "Department of Botany was established in 1971 with Botany as Graduate course under the leadership
+of Dr A K Pande. The Post graduate Department was established in 1993 .The Botany department
+was granted recognized research center in 1984. The area of Botany department is 4400 sq. feet and
+has 4 laboratories including research laboratory and plant tissue culture laboratory. The
+departmental library has more than 300 books. The labs are equipped with LCDs, and OHPs.
+Botanical garden is well maintained by the department with shade net house and medicinal plants.\n
+Salient Features of the Department-\n
+ Well experienced and qualified  staff\n
+ Well-equipped and spacious laboratories\n
+ Well maintained collection and display of botanical specimens"
+
+
+  utter_dept_biotechnology:
+  - text: "Keeping in view outlay and applications of biotechnology in every field to accomplish the eternal
+demand for resource personnel with specialization in biotechnology, the college established
+Department of Biotechnology in 2005. The Department offers both B.Sc. and M.Sc. courses in
+Biotechnology affiliated to Savitribai Phule Pune University.\n
+Salient Features of the Department-\n
+ Well-equipped spacious laboratories with the necessary infrastructure.\n
+ Qualified, experienced and dedicated staff with research experience in interdisciplinary
+sciences.\n
+ Research laboratory with latest instruments like HPLC, PCR, Fermentor, etc.\n
+ Separate Animal Tissue Culture, Plant Tissue Culture, Cell and Molecular Biology,
+Microbiology Laboratories.\n
+ Bioinformatics laboratory with internet connections."
+
+  utter_dept_english:
+  - text: "The Department of English was established in 1970. The undergraduate course was started in 1970
+and postgraduate course was started in 1994. The department envisions creating skilled human
+resource in the field of English language and literature.\n
+Salient Features of the Department-\n
+ Well qualified, skilled and dedicated faculty.\n
+ Advanced teaching and learning resources and methods.\n
+ Career guidance for students.\n
+ Associations with British Council Library, Pune, BITS, Pune, STC, Pune and Rotary Club ofr
+Pune, Shivajinagar."
+
+  utter_dept_german:
+  - text: "The department of German offers undergraduate courses for German. German was introduced in
+the junior wing in 1976. It was introduced in the senior wing of commerce in 2001, and in the Arts
+faculty in 2009. Since then it has been flourishing.\n
+Salient Features of the Department-\n
+ The department offers add-on courses, thus preparing the students for internationally
+acclaimed examinations of Goethe Institute, Max Mueller Bhavan, Pune.\n
+ We are associated with DAAD (German Academic Service Exchange) through which we
+attend seminars and workshops for teachers and students.\n
+ The department also organizes industrial visits for students to popular German setups in
+Pune.\n
+ We offer insight into career opportunities, by conducting guest lectures.\n
+ Students can interact with German natives and thus broaden their knowledge about German
+culture and language."
+
+  utter_dept_psychology:
+  - text: "The department of Psychology, Modern College of Arts, Science and Commerce, Shivajinagar Pune
+05, was established in the year 1971 under the guidance of Dr. Shamala S.Vanarase who served as its
+head until 1979. Then after it was headed by Mrs. Sudha A, Shaligram until 1998 .At present the
+department is under the able leadership of Dr. Amruta S.Oke.\n
+Salient Features of the Department-\n
+ Our students get excellent placements in various educational institutes, in corporate sector
+as well as in different non-governmental organisations.\n
+ Students are encouraged as well as sponsored to present research papers in National and
+International seminars and conferences.\n
+ Ample co-curricular activities are organized with emphasis on practical skills and applications
+of theoretical concepts not covered in syllabus."
+
+  utter_dept_hindi:
+  - text: "Hindi Department was started in 1970 in Modern College, Shivajinagar, Pune-05. Dr. Shrirang
+ Sangoram was the first head of the Hindi Department in  college. Dr. Sangoram was well known
+critic of Hindi literature and he was also a scholar in classical music. He contributed too many
+literary, grammatical &amp; musical terms.\n
+Salient Features of the Department-\n
+1. Qualified staff.\n
+2. To improve writing skills, we take practice tests, assignments and group projects.\n
+3. We conduct various activities for student’s progress.\n
+4. Career Guidance for the students.\n
+5. Our many students got prizes in various competitions at intercollegiate level."
+
+  utter_dept_history:
+  - text: "The department established in 1971. The eminent History Teacher Mr. M. A. Kulkarni was the first
+Head of the department. He taught with his research experience. After his retirement, In 2001 Prof.
+Dr. Rajesh kulkarni became HOD. Dr. Rajesh kulkarni is University gold medallist &amp; National scholar.
+Dr. Manda Admane is also a part-time faculty of the History department\n
+Salient Features of the Department-\n
+ Measum – Human Culture information.\n
+ Speciality -Traditional knowledge ( Meditation, Yoga, Traditional wisdom)\n
+ Collection- Videos on Indian History\n
+ Books- Authored by faculties for Students\n
+ Art gallery- Lord Buddha’s Paintings\n
+ Guidance – Competitive Exams /Nation &amp; Human Service.\n
+ Edify -Traditional Meditations. ( Open for all ).\n
+ Consultancy – Careeres in History.\n
+ Faculties- Experienced &amp; PhD Holders.\n
+ Connection – verious sectors connectivity for Jobs / enterprinerships for students."
+
+  utter_dept_fashion_technology:
+  - text: "The University Grants Commission (UGC) has launched the Community College model, which will be
+accessible to a large number of individuals of the community. It will offer low cost and high quality
+education locally based upon vocational skills. The programs conducted as part of the Community
+college focuses on universities and colleges providing undergraduate studies which would also
+incorporate specific job roles and their National Occupational Standards (NOSs) and NVEQF levels.\n
+Aims-\n
+ Judicious mix of skills relating to fashion technology\n
+ Adequate knowledge and skills to enable them to be work ready\n
+ Practical orientation with theoretical base\n
+ Flexibility to students by means of pre-defined entry and multiple exit points in two steps"
+
+  utter_dept_marathi:
+  - text: "The department of Marathi on its very year of inception that is from 1970 has proved its work. It is
+one of the active and result oriented departments of our college. For over last 44 years, it has
+proved to be a source of career building to the students not only of the Arts faculty but even for the
+students from Science and Commerce faculty. In 1994 department commence post graduate course.
+Department started research centre successfully in 2013.\n
+Salient features of the department- \n
+ To improve written Marathi skills we conduct test every fifteen days and conduct
+competitions.\n
+ For improvement of diction of the students we conduct competition.\n
+ For preservation of old and out of print books lamination and binding of the copies of rare
+books.\n
+ Thirteen students of special class will be given assistance for higher education.\n
+ Facilities available in the Department (Infrastructure, Instruments, Equipment, Internet,
+Departmental Library)"
+
+  utter_dept_geography:
+  - text: "Geography was started since the 4th and 5th century as a branch of knowledge on Global level. It is a
+part of human civilization. It is started in India since 11th century in the form of Astronomy. There
+are two main branches of geography., one of them is Physical geography and second one is Human
+geography.\n
+Salient features of the Department: \n
+ Well qualified, skilled and dedicated faculty\n
+ Advanced teaching and learning resources and methods\n
+ Career guidance cell for students.\n
+ Internet Access to the students\n
+ Separate departmental library and study room."
+
+
+  utter_dept_political_science:
+  - text: "The subject of Political Science was introduced in Modern College in the year 1971. In 1978 the subject achieved the status of permanent affiliation. In the year 1976, the department had organized One-day seminar on the topic 42nd Amendment Of The Indian Constitution. A workshop on the topic  Panchayat Raj in
+Maharashtra was organised on 16th February 1975.\n
+Salient Features of Department-\n
+ Well qualified and dedicated faculty.\n
+ Career guidance for students.\n
+ Dedication for enhancing overall progress of students.\n
+ Innovative style and student based teaching."
+
+
+  utter_dept_commerce_self:
+  - text: "Modern College of Arts, Science and Commerce (Autonomous), Shivajinagar, Pune 05 – Self Financed
+Section (Commerce) was established in June 2007 for Professional courses in Computer and Business
+like B.Com, BBA and BCA/BBA (CA), BBA(IB), M.Com (e-Commerce), M.Com. which are affiliated to
+Savitribai Phule Pune University. \n
+Salient Features of the Department- \n
+ Well qualified, skilled and dedicated faculty.\n
+ Advanced teaching and learning resources and methods.\n
+ Departmental Career guidance and placement cell for students.\n
+ Separate departmental library."
+
+  utter_dept_commerce_grant:
+  - text: "The Department of Commerce (which is a faculty at university level) includes 8 subjects,
+Accountancy, Cost and Works Accounting, Business Administration, Marketing, Business Law,
+Business Practices, Mathematics and Statistics, Banking and Finance, Business Economics. The
+Department of Commerce has been a major section of Modern College of Arts Science and
+Commerce, Shivajinagar, Pune 5. \n
+Salient Features of the Department-\n
+ Department since inception of the College\n
+ The Department has received permanent affiliation to SPPU for B. Com. and M. Com.\n
+ Well qualified faculty\n
+ First Department to get permanent Post -Graduate recognition\n
+ Renowned persons like Cost Accountants, Chartered Accountants, and Lawyers are faculty
+members of the Department."
+
+  utter_dept_economics:
+  - text: "The Department of Economics was established in Modern College, Shivajinagar in the year 1970.
+Economics as a special subject for BA was introduced in the year 1973.Bachelor in Arts in Economics
+(English Medium) was introduced in 2005. Post –graduation in Economics was introduced in 2008.
+The department has started Ph.D Research Centre in 2012.\n
+Salient Features of the Department-\n
+ The Department of Economics at Modern College, Shivajinagar, Pune 05, prepares students
+to succeed in a global business environment that is known today for the rapid pace of
+change.\n
+ It offers a widely recognised three-year Bachelor of Arts (BA) degree program and two year
+Master of Arts (MA) program that emphasises theoretical and analytical skills, and a broad-
+based education.\n
+ There are a variety of extracurricular activities including the elocution competition, essay
+competition, visits to academic and industrial units, etc. to promote student events and
+activities.\n
+ Workshops are conducted for Quality Enhancement and Research Improvement"
+  
+  utter_facilities:
+  - text: "Machine Laboratory, Drafting Laboratory, Class Rooms, Computer Laboratory, Study rooms,Display Area, Parking facility, Library, Canteen, Gymnasium"
+  - text: "Machine Laboratory, Drafting Laboratory, Class Rooms, Computer Laboratory, Study rooms,Display Area, Parking facility, Library, Canteen, Gymnasium"
+  
+  utter_fees:
+  - text: "For more information you can use this link- https://moderncoe.edu.in/course-wise-fee-structure.aspx"
+  - text: "For more information you can use this link- https://moderncoe.edu.in/course-wise-fee-structure.aspx"
+
+  utter_hostel:
+  - text: "No, Modern College doesn't provides Hostel facilities 👍"
+  - text: "There are no hostel rooms available for students. They need to provide documents, admission form, and information regarding pursuing course."  
+  - text: "College doesn't provides hostel facility."
+  - text: "Modern College provides doesn't hostel facility."
+
+  utter_mission:
+  - text: "To provide conducive and collaborative environment to meet contemporary & future Engineering challenges by project based and value-added education with the support of trained faculty."
+  - text: "Student Success and Completion: Meeting student needs by creating an educational environment in which students can attain a variety of goals.Excellence: Maintaining a high standard of integrity and performance leading to the achievement of academic and career goals."
+
+  utter_placement:
+  - text: "Modern College has emerged as hub for placement activities for students studying in Pune. Around 45 industries have visited campus and provided placement to 1200 students nation wide."
+  - text: "There are various placement opportunities provided by Modern College." 
+  - text: "Yes, There are many placements provided by college."
+
+  utter_address:
+  - text: "Address:- Progressive Education Society's Modern College of Arts, Science and Commerce (Autonomous) Shivajinagar, Pune - 411005, Sumukh Society, Shivajinagar, Pune, Maharashtra 411005"
+  - text: "Address:- Progressive Education Society's Modern College of Arts, Science and Commerce (Autonomous) Shivajinagar, Pune - 411005, Sumukh Society, Shivajinagar, Pune, Maharashtra 411005"   
+
+  utter_scholarship:
+  - text: "There are multiple scholarships provided by Modern College. For detailed information you can click on the mentioned link- http://moderncollegepune.edu.in/students-corner/scholarship/"
+  - text: "There are multiple scholarships provided by Modern College. For detailed information you can click on the mentioned link- http://moderncollegepune.edu.in/students-corner/scholarship/"
+  
+  utter_total_branches:
+  - text: "Modern College Institute of technology offers the total of 5 branches (IT, Computers,Mechnical, Civil and EXTC)"
+
+  utter_vision:
+  - text: "MCASC aspires to be a premier institute producing globally competent engineering professionals to contribute towards socio-economic growth of India."
+
+  utter_admission:
+  - text: "For further information you can visit our website- http://moderncollegepune.edu.in/admission/."
+  - text: "For further information you can visit our website- http://moderncollegepune.edu.in/admission/."
+
+  utter_entrance:
+  - text: "For further notices and dates you can visit our website- http://moderncollegepune.edu.in/notices/"
+  - text: "For further notices and dates you can visit our website- http://moderncollegepune.edu.in/notices/"
+
+  utter_HOD:
+  - text: " Information about respected HOD's and their departmemnts:\n - Animation-Dr. Mrs. Anjali S. Sardesai\n - Biotechnology-Dr. Mrs. S. V. Bhagat\n -Botany-Dr. Mrs. N. M. Patil\n -Chemistry-Dr. Harsh Gaikwad\n -Commerce Grant-In-Aid-Dr. A.V. Kamble\n 
+-Commerce Self-Financed-Dr. M. D. Alandikar\n -Computer Science-Prof. S. S. Deshmukh\n -Economics-Dr. Mrs. M. M. Satam\n -Electronic Science-Prof. S. R. Chaudhari\n -English-Prof. Mrs. A. A. Kamble\n -Fashion Technology-Prof. Mrs. M. N. Thakur\n
+-Geography-Dr. V. B. Kamble\n -German-Prof. Sneha Mahajan\n -Hindi-Dr. Ms. P. V. Ubale\n -History-Dr. R. Y. Kulkarni\n -Library-Dr. Shantashree Sengupta\n -Marathi-Dr. Mrs. N. K. Bhandare\n
+-Mathematics-Dr. A. N. Bhavale\n -Microbiology-Dr. Mrs. S. S. Mujumdar\n -Physics-Prof. S. S. Thengadi\n -Political Science-Prof. D.L. Khokale\n -Psychology-Dr. Mrs. A. S. Oke\n -Statistics-Prof. P. G. Dixit\n
+-Zoology-Prof. N. M. Naidu"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

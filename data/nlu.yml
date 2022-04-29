@@ -1,0 +1,457 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - parking
+    - exam
+    - about_us
+    - affiliate
+    - facilities
+    - fees
+    - hostel
+    - mission
+    - placement
+    - address
+    - scholarship
+    - total_branches
+    - vision
+    - admission
+    - entrance
+    - exam_dates
+    - dept_statistics
+    - dept_zoology
+    - dept_computer_science
+    - dept_physics
+    - dept_microbiology
+    - dept_mathematics
+    - dept_electronic_science
+    - dept_chemistry
+    - dept_botany
+    - dept_biotechnology
+    - dept_english
+    - dept_german
+    - dept_psychology
+    - dept_hindi
+    - dept_history
+    - dept_fashion_technology
+    - dept_marathi
+    - dept_geography
+    - dept_political_science
+    - dept_commerce_self
+    - dept_commerce_grant
+    - dept_economics
+    - HOD
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: exam
+  examples: |
+    - exam section
+    - dates for exam
+    - when will exams get conducted 
+    - Exam
+    - Exam dates
+
+- intent: about_us
+  examples: |
+    - info about modern college
+    - info about modern
+    - information about modern college 
+    - information
+    - about us
+
+- intent: parking
+  examples: |
+    - parking for students
+    - do you have parking facility available at our college
+    - do youhave parking facility available at our paid college
+    - do you have parking facility available at our free college
+    - do you have parking facility available at our modern college
+
+- intent: affiliate
+  examples: |
+    - affiliated
+    - is your college affilated
+    - university affiliated to ?
+    - is your college affilated to any university?
+    - affiliation
+
+- intent: facilities
+  examples: |
+    - facilities
+    - what facilities does your college provide?
+    - what facilities do you provide?
+    - what are the available facilities?
+    - what are various facilities provided by Modern College?
+
+- intent: fees
+  examples: |
+    - fees
+    - what are the fees for the courses?
+    - how much are the fees for modern college
+    - how much are the fees for taking admission in modern college
+
+- intent: hostel
+  examples: |
+    - hostel
+    - does your college provide hostel
+    - Does your college have hostel
+    - Hostel facility
+    - Does your college have hostel
+
+- intent: mission
+  examples: |
+    - mission
+    - mission of your college
+    - what is the mission of your college
+    - mission of modern college
+    - what is the mission of your college
+
+- intent: placement
+  examples: |
+    - placement
+    - does your college provide placement
+    - does your college provide job assistance
+    - job assistance
+    - companies for placement
+
+- intent: address
+  examples: |
+    - reach us
+    - address
+    - Address of the college
+    - what is address of the college
+    - How to reach to your college
+
+- intent: scholarship
+  examples: |
+    - scholarship
+    - does your college provide scholarship
+    - what scholarships are available for students
+    - does modern college provide scholarship      
+
+- intent: total_branches
+  examples: |
+    - How manhy branches does modern college have
+    - total branches
+    - how many branches does your college have
+    - information about branches in your college
+    - information about branches in your college
+
+- intent: vision
+  examples: |
+    - what is the vision of your college
+    - vision of college
+    - what is motto of your college
+    - motto
+    - vision
+
+- intent: admission
+  examples: |
+    - admission
+    - how can we take admission in modern college
+    - how to take admission in modern college
+    - admission process
+    - what is the admission process
+
+- intent: entrance
+  examples: |
+    - entrance
+    - entrance exam
+    - timetable for entrance exam
+    - dates for entrance exam
+    - Link for the entrance exam
+
+- intent: dept_statistics
+  examples: |
+    - Information of statistics department
+    - Information about statistics 
+    - Info of statistics department
+    - statistics department
+    - statistics department
+    - statistics
+
+- intent: dept_zoology
+  examples: |
+    - Information of zoology department
+    - Information about zoology 
+    - Info of zoology department
+    - zoology department
+    - zoology department
+    - zoology   
+
+- intent: dept_computer_science
+  examples: |
+    - Information of Computer Science department
+    - Information about Computer Science 
+    - Info of Computer Science department
+    - Computer Science department
+    - Computer Science department
+    - CS Department
+
+- intent: dept_physics
+  examples: |
+    - Information of physics department
+    - Information about physics 
+    - Info of physics department
+    - physics department
+    - physics department
+    - physics  
+
+- intent: dept_microbiology
+  examples: |
+    - Information of microbiology department
+    - Information about microbiology 
+    - Info of microbiology department
+    - microbiology department
+    - microbiology department
+    - microbiology  
+
+- intent: dept_mathematics
+  examples: |
+    - Information of maths department
+    - Information about mathematics
+    - Information about maths 
+    - Info of maths department
+    - mathematics department
+    - maths department
+    - maths
+    - mathematics  
+
+- intent: dept_electronic_science
+  examples: |
+    - Information of electronic science department
+    - Information about electronic science 
+    - Info of electronic science department
+    - electronic science department
+    - electronic science department
+    - electronic science  
+
+- intent: dept_chemistry
+  examples: |
+    - Information of chemistry department
+    - Information about chemistry 
+    - Info of chemistry department
+    - chemistry department
+    - chemistry department
+    - chemistry  
+
+- intent: dept_botany
+  examples: |
+    - Information of botany department
+    - Information about botany 
+    - Info of botany department
+    - botany department
+    - botany department
+    - botany 
+
+- intent: dept_biotechnology
+  examples: |
+    - Information of biotechnology department
+    - Information about biotechnology 
+    - Info of biotechnology department
+    - biotechnology department
+    - biotechnology department
+    - biotechnology
+
+- intent: dept_english
+  examples: |
+    - Information of english department
+    - Information about english 
+    - Info of english department
+    - english department
+    - english department
+    - english  
+
+- intent: dept_german
+  examples: |
+    - Information of german department
+    - Information about german 
+    - Info of german department
+    - german department
+    - german department
+    - german  
+
+- intent: dept_psychology
+  examples: |
+    - Information of psychology department
+    - Information about psychology 
+    - Info of psychology department
+    - psychology department
+    - psychology department
+    - psychology  
+
+- intent: dept_hindi
+  examples: |
+    - Information of hindi department
+    - Information about hindi 
+    - Info of hindi department
+    - hindi department
+    - hindi department
+    - hindi  
+
+- intent: dept_history
+  examples: |
+    - Information of history department
+    - Information about history 
+    - Info of history department
+    - history department
+    - History department
+    - history  
+
+- intent: dept_fashion_technology
+  examples: |
+    - Information of fashion technology department
+    - Information about fashion technology 
+    - Info of fashion technology department
+    - fashion technology department
+    - fashion technology department
+    - fashion technology 
+
+- intent: dept_marathi
+  examples: |
+    - Information of marathi department
+    - Information about marathi 
+    - Info of marathi department
+    - marathi department
+    - marathi department
+    - marathi  
+
+- intent: dept_geography
+  examples: |
+    - Information of geography department
+    - Information about geography 
+    - Info of geography department
+    - geography department
+    - geography department
+    - geography  
+
+- intent: dept_political science
+  examples: |
+    - Information of political science department
+    - Information about political science 
+    - Info of political science department
+    - political science department
+    - political science department
+    - political science  
+
+- intent: dept_commerce_self
+  examples: |
+    - Information of commerce department
+    - Information about commerce 
+    - Info of commerce department
+    - commerce department
+    - commerce department
+    - commerce  
+
+- intent: dept_commerce_grant
+  examples: |
+    - Information of commerce department
+    - Information about commerce 
+    - Info of commerce department
+    - commerce department
+    - commerce department
+    - commerce  
+    
+- intent: dept_economics
+  examples: |
+    - Information of economics department
+    - Information about economics 
+    - Info of economics department
+    - economics department
+    - economics department
+    - economics
+
+- intent: HOD
+  examples: |
+    - Information about HOD
+    - Info about departments
+    - department and hod
+    - hod and department
+    - Head of departments 

@@ -1,0 +1,220 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: exams path
+  steps:
+  - intent: exam
+  - action: utter_exam
+
+- story: about us path
+  steps:
+  - intent: about_us
+  - action: utter_about_us
+  
+- story: parking path
+  steps:
+  - intent: parking
+  - action: utter_parking
+
+- story: affiliate path
+  steps:
+  - intent: affiliate
+  - action: utter_affiliate
+
+- story: facilities path
+  steps:
+  - intent: facilities
+  - action: utter_facilities  
+
+- story: fees path
+  steps:
+  - intent: fees
+  - action: utter_fees
+
+- story: hostel path
+  steps:
+  - intent: hostel
+  - action: utter_hostel
+
+- story: mission path
+  steps:
+  - intent: mission
+  - action: utter_mission
+
+- story: placement path
+  steps:
+  - intent: placement
+  - action: utter_placement
+
+- story: address path
+  steps:
+  - intent: address
+  - action: utter_address
+
+- story: scholarship path
+  steps:
+  - intent: scholarship
+  - action: utter_scholarship
+
+- story: total_branches path
+  steps:
+  - intent: total_branches
+  - action: utter_total_branches
+
+- story: vision path
+  steps:
+  - intent: vision
+  - action: utter_vision
+
+- story: admission path
+  steps:
+  - intent: admission
+  - action: utter_admission
+
+- story: entrance path
+  steps:
+  - intent: entrance
+  - action: utter_entrance
+
+- story: statistics path
+  steps:
+  - intent: dept_statistics
+  - action: utter_dept_statistics
+
+- story: zoology path
+  steps:
+  - intent: dept_zoology
+  - action: utter_dept_zoology
+
+- story: computer science path
+  steps:
+  - intent: dept_computer_science
+  - action: utter_dept_computer_science
+  
+- story: physics path
+  steps:
+  - intent: dept_physics
+  - action: utter_dept_physics
+    
+- story: microbiology path
+  steps:
+  - intent: dept_microbiology
+  - action: utter_dept_microbiology
+
+- story: mathematics path
+  steps:
+  - intent: dept_mathematics
+  - action: utter_dept_mathematics
+
+- story: electronic_science path
+  steps:
+  - intent: dept_electronic_science
+  - action: utter_dept_electronic_science
+
+- story: chemistry path
+  steps:
+  - intent: dept_chemistry
+  - action: utter_dept_chemistry
+
+- story: botany path
+  steps:
+  - intent: dept_botany
+  - action: utter_dept_botany
+
+- story: biotechnology path
+  steps:
+  - intent: dept_biotechnology
+  - action: utter_dept_biotechnology
+
+- story: english path
+  steps:
+  - intent: dept_english
+  - action: utter_dept_english
+
+- story: german path
+  steps:
+  - intent: dept_german
+  - action: utter_dept_german
+
+- story: psychology path
+  steps:
+  - intent: dept_psychology
+  - action: utter_dept_psychology
+
+- story: hindi path
+  steps:
+  - intent: dept_hindi
+  - action: utter_dept_hindi
+
+- story: history path
+  steps:
+  - intent: dept_history
+  - action: utter_dept_history
+
+- story: fashion_technology path
+  steps:
+  - intent: dept_fashion_technology
+  - action: utter_dept_fashion_technology
+
+- story: marathi path
+  steps:
+  - intent: dept_marathi
+  - action: utter_dept_marathi
+
+- story: geography path
+  steps:
+  - intent: dept_geography
+  - action: utter_dept_geography
+
+- story: political science path
+  steps:
+  - intent: dept_political_science
+  - action: utter_dept_political_science
+
+- story: commerce_self path
+  steps:
+  - intent: dept_commerce_self
+  - action: utter_dept_commerce_self
+
+- story: commerce_grant path
+  steps:
+  - intent: dept_commerce_grant
+  - action: utter_dept_commerce_grant
+
+- story: economics path
+  steps:
+  - intent: dept_economics
+  - action: utter_dept_economics                          
+
+- story: hod path
+  steps:
+  - intent: HOD
+  - action: utter_HOD
